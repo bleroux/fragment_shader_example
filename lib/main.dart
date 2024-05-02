@@ -57,7 +57,7 @@ class MyHomePage extends StatefulWidget {
 class _MyHomePageState extends State<MyHomePage> {
   bool _futuresInitialized = false;
 
-  static const String _shaderKey = 'shaders/example.frag';
+  static const String _shaderKey = 'assets/example.frag';
 
   Future<void> _initializeFutures() async {
     // Loading the shader from an asset is an asynchronous operation, so we
